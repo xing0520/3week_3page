@@ -1,0 +1,15 @@
+{
+  "name": "3weeks-3pages-9th",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "week1": "gulp week1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.24.6",
+    "gulp": "^3.9.1"
+  }
+}
