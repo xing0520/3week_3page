@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "week1": "gulp week1"
+    "week1": "gulp week1",
+    "week2": "gulp week2",
+    "week3": "gulp week3"
   },
   "author": "",
   "license": "ISC",
