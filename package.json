@@ -2,7 +2,6 @@
   "name": "3weeks-3pages-9th",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "week1": "gulp week1",
     "week2": "gulp week2",

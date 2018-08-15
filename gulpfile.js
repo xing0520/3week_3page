@@ -1,38 +1,35 @@
 var bs = require('browser-sync').create();
 var gulp = require('gulp');
 
-gulp.task('week1-server', function() {
+gulp.task('week1', function() {
   bs.init({
+    watch: true,
     server: {
-      baseDir: "./week1"
+      baseDir: "./docs",
+      index: "week1.html"
     },
     port: 8001
   });
 });
 
-gulp.task('week2-server', function() {
+gulp.task('week2', function() {
   bs.init({
+    watch: true,
     server: {
-      baseDir: "./week2"
+      baseDir: "./docs",
+      index: "week2.html"
     },
     port: 8002
   });
 });
 
-gulp.task('week3-server', function() {
+gulp.task('week3', function() {
   bs.init({
+    watch: true,
     server: {
-      baseDir: "./week3"
+      baseDir: "./docs",
+      index: "week3.html"
     },
     port: 8003
   });
 });
-
-gulp.task('watch', function () {
-  bs.watch('*/*.html').on('change', bs.reload);
-  bs.watch('*/*.css').on('change', bs.reload);
-})
-
-gulp.task('week1', ['week1-server', 'watch']);
-gulp.task('week2', ['week2-server', 'watch']);
-gulp.task('week3', ['week3-server', 'watch']);
