@@ -1,7 +1,5 @@
 # Set up environment and run project
 
----
-
 ### Set up
 1. Need to install [node](https://nodejs.org/en/).
 2. Have one package manager tool. Seems there already has a **npm**, when you installed node or you can install [yarn](https://yarnpkg.com/en/) by yourself.
