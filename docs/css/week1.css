@@ -1,3 +1,191 @@
+body {
+  margin: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.header {
+  height: 50px;
+  background: #ffffff;
+  position: relative;
+  line-height: 50px;
+  vertical-align: middle;
+  padding: 0 100px;
+}
+
+.header a {
+  text-decoration: none;
+}
+
+.header a:hover{
+  text-decoration: none;
+  color: darkgray;
+}
+
+.header > a {
+  text-decoration: none;
+  color: lightslategray;
+  float: left;
+}
+
+.header .right {
+  float: right;
+}
+
+.header .right nav{
+  display: inline-block;
+}
+
+.header .right nav a{
+  margin: 0 10px;
+}
+
+.header .right img {
+  width: 40px;
+  height: 20px;
+  right: 50px;
+}
+
+section {
+  height: 700px;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
 h1 {
-  color: red;
+  font-size: 32px;
+}
+
+.content_text {
+  font-size: 10x;
+  margin: 30px 0;
+}
+
+.WordPress {
+  position: relative;
+  color: #fff;
+  text-align: center;
+}
+
+.WordPress img{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.WordPress .center .title{
+  width: 320px;
+  text-align: center;
+  margin: 10px;
+}
+
+.WordPress .center nav .download {
+  border: #fff 1px solid;
+  font-size: 10px;
+  height: 40px;
+  width: 150px;
+  background: rgb(0, 0, 0, 0);
+  color: #fff;
+}
+
+.readmore {
+  font-size: 10px;
+  height: 40px;
+  width: 150px; 
+  color: #fff;
+  background-color: rgb(138, 43, 226);
+  border: 0;
+}
+
+.readmore:hover{
+  background-color: rgb(138, 43, 138);
+  cursor: pointer;
+}
+
+
+.seo {
+  vertical-align: middle;
+}
+
+.seo .imgbox{
+  float: left;
+  height: 100%;
+  width: 60%;
+  position: relative;
+}
+
+.seo .imgbox img{
+  width: 80%;
+  margin: auto;
+}
+
+.seo .box{
+  float: right;
+  width: 40%;
+  height: 100%;
+  position: relative;
+  color: #000;
+}
+
+.seo .box .center .content {
+  color: rgb(138, 135, 135);
+}
+
+.protfolio {
+  vertical-align: middle;
+  background-color: lavender;
+}
+
+.protfolio .box {
+  float: left;
+  width: 40%;
+  height: 100%;
+  position: relative;
+  color: #000;
+}
+
+.protfolio .imgbox {
+  float: right;
+  height: 100%;
+  width: 60%;
+  position: relative;
+}
+
+.protfolio .imgbox img{
+  width: 80%;
+  margin: auto;
+}
+
+.protfolio .box .content {
+  color: rgb(138, 135, 135);
+}
+
+.footer {
+  height: 80px;
+  line-height: 80px;
+  vertical-align: middle;
+  background: #000;
+  color: #fff;
+  padding-left: 100px;
+}
+
+.copyright {
+  float: left;
+  margin: 0;
+  font-size: 10px;
+}
+
+.white {
+  color: white;
+}
+.gray{
+  color: lightgray;
 }
