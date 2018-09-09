@@ -6,95 +6,143 @@
   <title>3 Weeks 3 Pages -- Week2 </title>
   <link rel="stylesheet" type="text/css" href="css/week2.css">
   <link rel="stylesheet" type="text/css" href="css/iconfont.css">
-  <meta id="viewport" name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1; user-scalable=no;">
+  <!-- <meta id="viewport" name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1; user-scalable=no;"> -->
+  <!-- <meta name="viewport" content="initial-scale=2.0,width=device-width, maximum-scale=3, minimum-scale= 0.5" /> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
-  <header>
-    <nav>
-      <a>TasteMakers</a>
-      <a>Blob</a>
-      <a>The A-List</a>
-      <a>Contribute</a>
-      <a>About</a>
+  <header class="header col-3 col-s-12">
+    <div class="img-box">
+      <img class="header__logo" src="img/logo.png" />
+    </div>
+    <nav class="header__nav">
+      <div class="header__nav__items">
+        <i class="iconfont icon-spoon header__nav__items__icon"></i>
+        <a href="#" class="header__nav__items__text">TasteMakers</a>
+      </div>
+      <div class="header__nav__items">
+        <i class="iconfont icon-blog header__nav__items__icon"></i>
+        <a href="#" class="header__nav__items__text">Blog</a>
+      </div>
+      <div class="header__nav__items">
+        <i class="iconfont icon-alist header__nav__items__icon"></i>
+        <a href="#" class="header__nav__items__text">The A-List</a>
+      </div>
+      <div class="header__nav__items">
+        <i class="iconfont icon-contribute header__nav__items__icon"></i>
+        <a href="#" class="header__nav__items__text">Contribute</a>
+      </div>
+      <div class="header__nav__items">
+        <i class="iconfont icon-about header__nav__items__icon"></i>
+        <a href="#" class="header__nav__items__text">About</a>
+      </div>
     </nav>
-    <img src="img/logo.png" />
   </header>
 
-  <content>
+  <main class="content col-9">
 
-    <section class="showSection">
-      <img src="img/foodsense.jpg" />
-      <button>
-        Tastmakers
-      </button>
-      <button>
-        Blob
-      </button>
-      <button>
-        The A-List
-      </button>
-      <button>
-        Contribute
-      </button>
+    <section class="showSec">
+
+      <div class="showSec__img">
+        <img class="foodsense_img" src="img/foodsense.jpg" />
+      </div>
+
+      <h1 class="showSec__title showSec__title-first">Read, Learn, Share</h1>
+      <h2 class="showSec__title showSec__title-second">Get daily how-tos, stories & updates with the latest news. </h2>
+      <nav class="showSec__nav">
+        <button class="showSec__nav__items">Tastmakers</button>
+        <button class="showSec__nav__items">Blob</button>
+        <button class="showSec__nav__items">The A-List</button>
+        <button class="showSec__nav__items">Contribute</button>
+      </nav>
+    </section>
+
+    <section class="newLetterSec">
+      <div class="col-8 col-s-8 newLetterSec__signup">
+          <i class="iconfont icon-mail newLetterSec__signup__icon"></i>
+                   <p class="newLetterSec__signup__text">
+            Sign up for our newsletter to receive a handpicked selection of the best stories, recipes, and news, delivered weekly to your inbox.
+          </p>
+      </div>
+      <form class="col-4 col-s-4 newLetterSec__form">
+        <input type="email" placeholder="Email" class="form__input"/>
+        <button class="button">subcribe</button>
+      </form>
+    </section>
+
+    <section class="articleSec">
+      <article class="col-3 col-s-3">
+          <div class="article__img__box">
+            <img src="img/1.jpg">
+          </div>
+          <h2 class="article_title">
+            2012’s Best Summer Cookbooks
+          </h2>
+          <p>
+           With the best of the season coming from “orchards, farms and gardens,” NPR has put together an impressive collection of 10 summer cookbooks.
+          </p>
+      </article>
+      
+      <article class="col-3 col-s-3">
+          <div class="article__img__box">
+            <img src="img/2.jpg">
+          </div>
+            
+          <h2 class="article_title">
+              How to Make Vegetable Chips
+          </h2>
+          <p>
+              About a month ago, I ate almost an entire box of kale chips. My brother and I were visiting our cousin in Brooklyn, and before a very thoughtfully prepared vegan…
+          </p>
+      </article>
+
+      <article class="col-3 col-s-3">
+          <div class="article__img__box">
+
+            <img src="img/3.jpg">
+          </div>
+          <h2 class="article_title">
+              Join us on Pinterest!
+          </h2>
+          <p>
+              <p>If I could curate a cookbook for you, this would be it.</p>
+          </p>
+      </article>
+
+      <article class="col-3 col-s-3">
+          <div class="article__img__box">
+            <img src="img/4.jpg">
+          </div>
+          <h2 class="article_title">
+              Recipes from a Sunday Supper
+          </h2>
+          <p>
+              I could not figure out what to do with the delectable slices of Pear Cake that I brought home from this wonderful Sunday supper - eat them slowly, a little bit at…
+          </p>
+      </article>
 
     </section>
 
-    <section>
-      <i class="iconfont icon-mail"></i>
-      <p>
-        signup for our new letters
-      </p>
-      <input type="email" />
-      <button>
-        subcribe
-      </button>
-    </section>
-
-    <section>
-      <div>
-        <img src="img/1.jpg">
-        <p>
-          2012's Better summer
-        </p>
-        <p>
-          with the best of the season
-        </p>
-      </div>
-      <div>
-        <img src="img/2.jpg">
-        <p>
-          How to make vegetable chips
-        </p>
-        <p>
-          with the best of the season
-        </p>
-      </div>
-      <div>
-        <img src="img/3.jpg">
-        <p>
-          Join us on the Pintrest
-        </p>
-        <p>
-          with the best of the season
-        </p>
-      </div>
-      <div>
-        <img src="img/4.jpg">
-        <p>
-          Recipe form a Sunday Supper
-        </p>
-        <p>
-          with the best of the season
-        </p>
-      </div>
-    </section>
-
-  </content>
+  </main>
 
 
-  <footer>
-
+  <footer class="footer col-12 col-s-12">
+    <div class="footer__info">
+      <nav class="footer__nav">
+        <a href="#" class="footer__nav__items">Privacy Policy</a>
+        <span class="footer__nav__seperate">/</span>
+        <a href="#" class="footer__nav__items">Terms of Use</a>
+        <span class="footer__nav__seperate">/</span>
+        <a href="#" class="footer__nav__items">Contact</a>
+      </nav>
+      <p class="footer__copyright">© 2018 Food Sense, all rights reserved.</p>
+    </div>
+    <div>
+      <i class="iconfont icon-twittericon"></i>
+      <i class="iconfont icon-facebook"></i>
+      <i class="iconfont icon-sdfsdf"></i>
+    </div>
   </footer>
 </body>
 
