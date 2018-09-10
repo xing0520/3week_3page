@@ -63,6 +63,7 @@ body {
   font-weight: inherit;
   margin: 20px auto;
   font-size: 12px;
+  min-width: 360px;
 }
 
 @media only screen and (min-width: 690px) {
